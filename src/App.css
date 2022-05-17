@@ -1,0 +1,215 @@
+body {
+    background: linear-gradient(to top, rgba(61, 17, 33, 0.92), rgba(102, 13, 34, 0.93)), url(imgs/bg.png);
+    background-size: cover;
+    background-position: center;
+    /* mix-blend-mode: color-dodge; */
+    /* opacity: 0.2; */
+}
+
+.App {
+    padding: 40px 0px 73px 0px;
+    background-blend-mode: multiply;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80%;
+    /* color: rgb(61, 17, 33); */
+    color: rgb(102, 13, 34);
+    padding: 1px;
+}
+
+.logo-icon {
+    background: white;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'curly';
+    src: url('curlyfonts/curly.ttf') format('truetype');
+}
+
+.text {
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fa-brands {
+    color: white;
+    padding: 0px 15px 5px 0px;
+    font-size: 20px;
+}
+
+.line {
+    height: 1px;
+    background: white;
+    width: 19%;
+}
+
+.soon {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.people {
+    width: 400px;
+    height: 400px;
+    border-radius: 68px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 117px;
+}
+
+.inner {
+    color: white;
+    font-family: 'curly';
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.image {
+    text-align: center;
+}
+
+.email {
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+.email::placeholder {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    .App {
+        padding: 40px 0px 20px 0px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .logo-icon {
+        margin: 0 auto;
+    }
+
+    .content {
+        flex-wrap: wrap-reverse;
+        padding-top: 20px;
+    }
+
+    .text {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .line {
+        height: 1px;
+        background: white;
+        width: 21%;
+    }
+
+    .soon {
+        font-size: 35px;
+    }
+
+    .people {
+        width: 270px;
+        height: 270px;
+        border-radius: 68px;
+        font-weight: 900;
+        font-size: 100px;
+        line-height: 117px;
+    }
+
+    .inner {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .fa-brands {
+        color: white;
+        font-size: 20px;
+        display: inline-block
+    }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+    .App {
+        padding: 40px 0px 20px 0px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .logo-icon {
+        margin: 0 auto;
+    }
+
+    .content {
+        flex-wrap: wrap-reverse;
+        padding-top: 20px;
+    }
+
+    .text {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .line {
+        height: 1px;
+        background: white;
+        width: 21%;
+    }
+
+    .soon {
+        font-size: 35px;
+    }
+
+    .people {
+        width: 370px;
+        height: 370px;
+        border-radius: 68px;
+        font-weight: 900;
+        font-size: 100px;
+        line-height: 117px;
+    }
+
+    .inner {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .fa-brands {
+        color: white;
+        /* font-size: 20px;
+        display: inline-block */
+    }
+}
+
+@media (min-width: 641px) and (max-width: 800px) {}
